@@ -116,8 +116,9 @@ Customers are grouped into:
 ![Unique Orders](images/monthly%20unique%20orders.png)
 
 ---
+## 🗂 Project Structure
 
-## 🗂 Project Structure  
+```
 Customer-Segmentation-Analysis/
 │
 ├── notebook/
@@ -132,7 +133,7 @@ Customer-Segmentation-Analysis/
 │   ├── monthly active use.png
 │   ├── monthly order trend.png
 │   ├── monthly revnue.png
-│   ├── monthly unique orders.png
+│   └── monthly unique orders.png
 │
 ├── outputs/
 │   └── segmented_customers.csv
@@ -140,8 +141,9 @@ Customer-Segmentation-Analysis/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
----
+```
 
+--- 
 ## 🛠 Tech Stack  
 - Python 🐍  
 - Pandas  
