@@ -1,5 +1,9 @@
 # 📊 Customer Segmentation Analysis  
-Python | Machine Learning | RFM Analysis | KMeans Clustering  
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
+![RFM Analysis](https://img.shields.io/badge/RFM-Analysis-blue?style=for-the-badge)
+![KMeans](https://img.shields.io/badge/KMeans-Clustering-purple?style=for-the-badge)
 
 ---
 
@@ -117,28 +121,25 @@ Customers are grouped into:
 Customer-Segmentation-Analysis/
 │
 ├── notebook/
-│   └── customer-segemntation.ipynb
+│ └── customer-segmentation.ipynb
 │
 ├── data/
-│   └── Online Retail.csv
+│ └── Online Retail.csv
 │
 ├── images/
-│   ├── Customer Monetary Distribution.png
-│   ├── Customer Segmentation Distribution.png
-│   ├── monthly active use.png
-│   ├── monthly order trend.png
-│   ├── monthly revnue.png
-│   ├── monthly unique orders.png
+│ ├── Customer Monetary Distribution.png
+│ ├── Customer Segmentation Distribution.png
+│ ├── monthly active use.png
+│ ├── monthly order trend.png
+│ ├── monthly revnue.png
+│ ├── monthly unique orders.png
 │
 ├── outputs/
-│   └── segmented_customers.csv
+│ └── segmented_customers.csv
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
---- 
-
 
 ---
 
