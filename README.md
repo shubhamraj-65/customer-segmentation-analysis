@@ -121,26 +121,25 @@ Customers are grouped into:
 Customer-Segmentation-Analysis/
 │
 ├── notebook/
-│ └── customer-segmentation.ipynb
+│   └── customer-segmentation.ipynb
 │
 ├── data/
-│ └── Online Retail.csv
+│   └── Online Retail.csv
 │
 ├── images/
-│ ├── Customer Monetary Distribution.png
-│ ├── Customer Segmentation Distribution.png
-│ ├── monthly active use.png
-│ ├── monthly order trend.png
-│ ├── monthly revnue.png
-│ ├── monthly unique orders.png
+│   ├── Customer Monetary Distribution.png
+│   ├── Customer Segmentation Distribution.png
+│   ├── monthly active use.png
+│   ├── monthly order trend.png
+│   ├── monthly revnue.png
+│   ├── monthly unique orders.png
 │
 ├── outputs/
-│ └── segmented_customers.csv
+│   └── segmented_customers.csv
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 ---
 
 ## 🛠 Tech Stack  
