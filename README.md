@@ -1,85 +1,176 @@
-# 📊 Customer Segmentation Analysis (RFM + KMeans)
-
-## 📌 Project Overview
-This project focuses on **customer segmentation using behavioral data** from an online retail dataset. The goal is to identify different types of customers (high-value, regular, and inactive) using RFM analysis and KMeans clustering to support data-driven marketing decisions.
+# 📊 Customer Segmentation Analysis  
+Python | Machine Learning | RFM Analysis | KMeans Clustering  
 
 ---
 
-## 📁 Dataset Information
-- Dataset: Online Retail Dataset  
-- Contains transaction-level details such as:
-  - Invoice number
-  - Product description
-  - Quantity
-  - Invoice date
-  - Customer ID
-  - Unit price
+## 🚀 Project Overview  
+This project is an end-to-end **Customer Segmentation Analysis** using real-world e-commerce data.
+
+It uses **RFM (Recency, Frequency, Monetary) analysis** and **KMeans clustering** to group customers based on their purchasing behavior.
+
+The main goal is to help businesses understand:
+- Who are the most valuable customers  
+- Who are at risk of churn  
+- Who are inactive or lost  
 
 ---
 
-## 🎯 Objective
-- Understand customer purchasing behavior
-- Segment customers based on RFM (Recency, Frequency, Monetary)
-- Identify high-value and at-risk customers
-- Provide insights for business decision-making
+## 🎯 Objectives  
+- Analyze customer purchase behavior  
+- Segment customers using data-driven approach  
+- Identify high-value and inactive customers  
+- Generate business insights for marketing strategy  
 
 ---
 
-## ⚙️ Workflow
-
-### 1. Data Cleaning
-- Removed missing values and duplicates
-- Handled incorrect or null customer IDs
-- Created total transaction amount
-
-### 2. Exploratory Data Analysis (EDA)
-- Monthly revenue trends
-- Monthly active users
-- Monthly order trends
-- Customer spending distribution
-
-### 3. RFM Analysis
-- **Recency** → How recently a customer purchased
-- **Frequency** → How often a customer purchases
-- **Monetary** → How much a customer spends
-
-### 4. Customer Segmentation
-- Applied **KMeans Clustering**
-- Grouped customers into segments:
-  - High-Value Customers
-  - Regular Customers
-  - At-Risk Customers
-  - Lost Customers
+## 📁 Dataset  
+Online Retail dataset containing:
+- Invoice Number  
+- Product Description  
+- Quantity  
+- Invoice Date  
+- Unit Price  
+- Customer ID  
+- Country  
 
 ---
 
-## 📊 Key Insights
-- A small percentage of customers contribute to a large portion of revenue
-- Many customers are inactive and need re-engagement
-- High-value customers show consistent purchasing behavior
-- Segmentation helps in targeted marketing campaigns
+## ⚙️ Workflow  
+
+### 1️⃣ Data Cleaning  
+- Removed missing values  
+- Handled duplicates  
+- Filtered invalid customer entries  
+- Created Total Revenue column  
 
 ---
 
-## 📈 Visualizations
-- Customer Monetary Distribution  
-- Customer Segmentation Distribution  
+### 2️⃣ Exploratory Data Analysis (EDA)  
+- Monthly Revenue Trend  
 - Monthly Active Users Trend  
 - Monthly Order Trend  
-- Monthly Revenue Trend  
 - Monthly Unique Orders  
+- Customer Spending Distribution  
 
 ---
 
-## 🛠 Tech Stack
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
+### 3️⃣ RFM Analysis  
+Customers are segmented based on:
+
+- 🕒 Recency → Last purchase date  
+- 🔁 Frequency → Number of purchases  
+- 💰 Monetary → Total spending  
 
 ---
 
-## 📂 Project Structure
+### 4️⃣ Machine Learning (KMeans Clustering)  
+Customers are grouped into:
+
+- 🏆 High Value Customers  
+- 🔄 Regular Customers  
+- ⚠️ At Risk Customers  
+- ❌ Lost Customers  
+
+---
+
+## 📊 Key Insights  
+- Small percentage of customers generate majority of revenue  
+- Large number of customers are inactive  
+- High-value customers show consistent buying behavior  
+- Segmentation helps improve targeted marketing strategies  
+
+---
+
+## 📸 Visualizations  
+
+### 💰 Customer Monetary Distribution  
+![Monetary Distribution](images/Customer%20Monetary%20Distribution.png)
+
+---
+
+### 🧩 Customer Segmentation Distribution  
+![Segmentation](images/Customer%20Segmentation%20Distribution.png)
+
+---
+
+### 📈 Monthly Active Users  
+![Active Users](images/monthly%20active%20use.png)
+
+---
+
+### 📦 Monthly Order Trend  
+![Order Trend](images/monthly%20order%20trend.png)
+
+---
+
+### 💵 Monthly Revenue Trend  
+![Revenue Trend](images/monthly%20revnue.png)
+
+---
+
+### 🧾 Monthly Unique Orders  
+![Unique Orders](images/monthly%20unique%20orders.png)
+
+---
+
+## 🗂 Project Structure  
+Customer-Segmentation-Analysis/
+│
+├── notebook/
+│   └── customer-segemntation.ipynb
+│
+├── data/
+│   └── Online Retail.csv
+│
+├── images/
+│   ├── Customer Monetary Distribution.png
+│   ├── Customer Segmentation Distribution.png
+│   ├── monthly active use.png
+│   ├── monthly order trend.png
+│   ├── monthly revnue.png
+│   ├── monthly unique orders.png
+│
+├── outputs/
+│   └── segmented_customers.csv
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+--- 
+
+
+---
+
+## 🛠 Tech Stack  
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+
+---
+
+## 📈 Business Impact  
+This project helps businesses to:
+- Identify high-value customers  
+- Improve customer retention  
+- Reduce churn rate  
+- Optimize marketing campaigns  
+- Increase revenue efficiency  
+
+---
+
+## 👨‍💻 Author  
+**Shubham Raj**  
+Aspiring Data Analyst | Python | SQL | Power BI  
+
+🔗 GitHub: https://github.com/shubhamraj-65  
+
+---
+
+## ⭐ Support  
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+It helps others discover the project and motivates improvement.
